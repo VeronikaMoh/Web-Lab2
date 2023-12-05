@@ -1,0 +1,18 @@
+table.t_ran {
+    width: 400px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+}
+
+table.t_ran, table.t_ran td, table.t_ran th {
+    border: 2px solid #000000;
+}
+
+table.t_ran td {
+    padding: 3px;
+    width: 40px; 
+    height: 40px; 
+    text-align: center; /* Розміщуємо текст посередині клітинки горизонтально */
+    vertical-align: middle; /* Розміщуємо текст посередині клітинки вертикально */
+}
